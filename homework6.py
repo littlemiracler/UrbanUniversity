@@ -1,0 +1,22 @@
+print('Практическое задание по теме: "Словари и множества"')
+print("_____________________________________________________________")
+print('РАБОТА СО СЛОВАРЯМИ')
+my_dict = {'Lera': 2001, 'Alexsey': 2000, 'Marina': 1999}
+print(my_dict)
+print(my_dict.get ('Lera'))
+print(my_dict.get ('Anna'))
+my_dict.update({'Tamara': 1997,
+               'Valeriy': 1996})
+a = my_dict.pop('Marina')
+print(a)
+print(my_dict)
+print("_____________________________________________________________")
+print('РАБОТА С МНОЖЕСТВАМИ')
+my_set = {1, 2, 3, 1, 1, 'Lera', 'Marina', 'Lera'}
+print(my_set)
+my_set.add(4)
+my_set.add('Alexey')
+my_set.discard(1)
+print(my_set)
+print("_____________________________________________________________")
+print('Практическое задание по теме: "Словари и множества": выполнено')
